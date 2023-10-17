@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346.15deg 16.88% 69.8%);
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+
+#part2 {
+    height: 100%;
+    width: 67%;
+    background-image: url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9kZWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: 0% 35%;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(344, 81%, 22%, 0.292);
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: green ; */
+}
+
+#text-div {
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 5%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+#text-div>h1{
+    font-size: 95px;
+    line-height: 78px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#small-img-div {
+    height: 400px;
+    width: 300px;
+    background-image: url(https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fG1vZGVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: 60% 0;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0 , -50%);
+    border-radius: 15px;
+}
+
+#vertical-text {
+    position: absolute;
+    transform: rotate(90deg);
+    right: -56.7%;
+    transform-origin: 0% 0%;
+    top: -4%;
+
+    /* width: 100%; */
+    /* background-color: red; */
+}
+
+#vertical-text h1 {
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    font-family: sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    color: transparent;
+}
+
+#nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 364px;
+    left: 8%;
+    top: 5%;
+    /* background-color: red; */
+}
+
+#nav img{
+    height: 50px;
+
+}
+
+#nav h5 {
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+}
